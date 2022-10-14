@@ -2,7 +2,7 @@
     "env": {
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true       
     },
     "extends": [
         "standard"
@@ -12,8 +12,9 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 11
+        "ecmaVersion": 12
     },
     "rules": {
+        "semi": [2, "always"]
     }
 }
