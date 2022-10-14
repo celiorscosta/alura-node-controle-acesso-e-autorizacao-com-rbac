@@ -53,5 +53,5 @@ node -e "console.log(require('crypto').randomBytes(256).toString('base64'))"
 
 Pronto, feito isso, agora é só rodar!
 ```
-npm start
+npm run dev
 ```
